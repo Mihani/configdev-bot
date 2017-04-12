@@ -1,0 +1,49 @@
+
+.top-bar, .top-bar ul{
+  background-color: #4B586E;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.menu > li > a:hover {
+  background-color: white;
+  border-radius: 5%;
+}
+
+.background {
+  background-image: url("../img/terminal_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+
+.callout.secondary {
+  background-color: gray;
+  margin-bottom: -11px;
+}
+
+.label.secondary {
+  background-color: #F03861;
+  border-radius: 5%;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.label.secondary:hover {
+  background-color: white;
+}
+
+.chatbot {
+  border-radius: 15px;
+  font-size: 20px;
+  background: #F03861;
+  padding: 10px 10px 10px 10px;
+  margin-top: 80px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-decoration: none;
+}
+
+.chatbot:hover {
+  background: #2CE62B;
+  text-decoration: none;
+}
