@@ -1,6 +1,6 @@
 
 .top-bar, .top-bar ul{
-  background-color: #4B586E;
+  background-color: #EBE9F6;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -10,11 +10,17 @@
   border-radius: 5%;
 }
 
+#logo {
+  height: 40px;
+  weight: 40px;
+}
+
 .background {
-  background-image: url("../img/terminal_background.jpg");
+  background-image: url("../img/terminal_backgroundflou.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 400px;
+  min-height: 600px;
+  margin-bottom: 70px;
 }
 
 .callout.secondary {
@@ -23,7 +29,7 @@
 }
 
 .label.secondary {
-  background-color: #F03861;
+  background-color: #2CE62B;
   border-radius: 5%;
   margin-right: 10px;
   margin-top: 10px;
@@ -46,4 +52,23 @@
 .chatbot:hover {
   background: #2CE62B;
   text-decoration: none;
+}
+
+#app {
+  font-size: 50px;
+  font-style: oblique;
+  font-weight:900;
+}
+
+.button {
+  background: #4B586E;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px 60px;
+  font-size: 40px;
+}
+
+.button:hover {
+  background: white;
+  color: black;
 }

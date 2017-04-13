@@ -21,5 +21,20 @@
     {{> footer}}
 
     <script src="{{root}}assets/js/app.js"></script>
+    <script src="{{root}}assets/js/typewriter.js"></script>
+    <script type="text/javascript">
+var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('Dites BONJOUR à notre Terminal !')
+    .pauseFor(1500)
+    .deleteAll()
+    .typeString('Il s\'appelle Maurice :)')
+    .pauseFor(1500)
+    .start();
+    </script>
   </body>
   </html>
