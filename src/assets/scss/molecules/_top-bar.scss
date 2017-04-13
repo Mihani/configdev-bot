@@ -1,4 +1,3 @@
-
 .top-bar, .top-bar ul{
   background-color: #EBE9F6;
   padding-top: 5px;
@@ -11,16 +10,12 @@
 }
 
 #logo {
-  height: 40px;
-  weight: 40px;
+  width: 40px;
 }
 
 .background {
   background-image: url("../img/terminal_backgroundflou.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
-  min-height: 600px;
-  margin-bottom: 70px;
 }
 
 .callout.secondary {
@@ -38,24 +33,19 @@
   background-color: white;
 }
 
-.chatbot {
+.central-button {
   border-radius: 15px;
   font-size: 20px;
   background: #F03861;
-  padding: 10px 10px 10px 10px;
-  margin-top: 80px;
-  margin-left: 400px;
-  margin-right: 400px;
   text-decoration: none;
 }
 
-.chatbot:hover {
+.central-button:hover {
   background: #2CE62B;
   text-decoration: none;
 }
 
 #app {
-  font-size: 50px;
   font-style: oblique;
   font-weight:900;
 }
@@ -73,7 +63,80 @@
   color: black;
 }
 
-#mag {
-color: #2CE62B;
-font-weight: 800;
+@media only screen and (max-width: 640px){
+  #logo{
+    height: auto;
+  }
+
+  .background {
+    background-size: 100%;
+    max-height: 170px;
+  }
+
+  .central-button {
+    width: 200px;
+    margin: 5px auto 30px;
+    height: 55px;
+    padding: 5%;
+  }
+
+  #app {
+    font-size: 25px;
+    min-height: 80px;
+  }
+}
+
+@media only screen and (min-width: 641px) {
+  #logo{
+    height: 10%;
+  }
+
+  .background{
+    background-size: 100%;
+  }
+
+  .central-button {
+    width: 200px;
+    margin: 5px auto 30px;
+    height: 55px;
+    padding: 2%;
+  }
+
+  #app{
+      font-size: 50px;
+      min-height: 150px;
+  }
+}
+
+@media only screen and (min-width: 930px) {
+  .central-button{
+    height: 62px;
+  }
+
+}
+
+@media only screen and (min-width: 1025px){
+  #logo {
+    height: 40px;
+  }
+
+  .background{
+    min-height: 600px;
+    background-size: cover;
+    margin-bottom: 70px;
+  }
+
+  .central-button{
+    padding: 15px;
+    margin: 50px auto 0px;
+    height: 90px;
+    width: 400px;
+    font-size: 40px;
+  }
+
+  #mag {
+    color: #2CE62B;
+    font-weight: 800;
+  }
+
 }

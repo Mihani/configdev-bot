@@ -1,11 +1,12 @@
+.menu-text {
+  color: white;
+}
+
 h1 {
   color: white;
-  font-size: 500%;
-  padding-top: 150px;
 }
 .subheader {
   color: #2CE62B;
-  margin-top: -30px;
 }
 
 h3 > a, h3 > a:focus{
@@ -19,10 +20,41 @@ h4 {
 h3 {
   color:#4B586E;
 }
-.menu-text {
-  color: white;
+
+@media only screen and (max-width: 640px){
+  h1{
+    font-size: 175%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .lead {
+    font-size: 15px;
+  }
 }
-.lead {
-  padding-top: 50px;
-  font-size: 35px
+
+@media only screen and (min-width: 641px) {
+  h1{
+    font-size: 400%;
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+
+}
+
+@media only screen and (min-width: 1025px){
+  h1 {
+    font-size: 500%;
+    padding-top: 90px;
+    margin-bottom: 20px;
+  }
+
+  .subheader {
+    font-size: 40px;
+  }
+
+  .lead {
+    padding-top: 50px;
+    font-size: 35px;
+  }
 }
