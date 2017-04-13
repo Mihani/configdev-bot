@@ -72,3 +72,21 @@
   background: white;
   color: black;
 }
+
+@media only screen and (max-width: 40em){
+  #logo{
+    height: auto;
+  }
+
+  .background {
+    background-image: url("../img/terminal_backgroundflou.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: auto;
+    margin-bottom: 70px;
+  }
+}
+
+@media only screen and (min-width: 64.063em){
+
+}
